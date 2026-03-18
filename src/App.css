@@ -1,0 +1,12 @@
+/* google font import link */
+@import url('https://fonts.googleapis.com/css2?family=Poly:ital@0;1&display=swap');
+
+/* tailwind impory */
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+  font-family: "Poly", serif;
+  font-weight: 400;
+  font-style: normal;
+}
