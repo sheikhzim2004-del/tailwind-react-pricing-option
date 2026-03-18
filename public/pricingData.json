@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": 1000,
+    "duration": "1 Month",
+    "description": "Perfect for beginners starting their fitness journey.",
+    "features": [
+      "Access to gym equipment",
+      "Basic workout area",
+      "Locker facility",
+      "Open 6 days/week",
+      "Free water",
+      "Changing room access",
+      "Beginner-friendly environment"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "price": 3000,
+    "duration": "3 Months",
+    "description": "Great for regular members who want consistency.",
+    "popular": true,
+    "features": [
+      "Full gym access",
+      "Cardio + weight training",
+      "Locker facility",
+      "1 personal training session",
+      "Basic diet chart",
+      "Body measurement tracking",
+      "Group workout classes",
+      "Free fitness consultation"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "price": 8000,
+    "duration": "1 Year",
+    "description": "Best for serious transformation and long-term results.",
+    "features": [
+      "Unlimited gym access",
+      "All equipment access",
+      "Dedicated personal trainer",
+      "Custom workout + diet plan",
+      "Weekly progress tracking",
+      "Steam/sauna access",
+      "Supplement guidance",
+      "Priority support",
+      "Injury prevention guidance",
+      "Exclusive member benefits"
+    ]
+  }
+]
