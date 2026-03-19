@@ -39,7 +39,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='container mx-auto flex justify-between items-center  mb-50'>
+    <nav className='container mx-auto flex justify-between items-center  mb-5'>
       <span className='flex space-x-3 items-center' onClick={() => setOpen(!open)}>
         {
           open ?
