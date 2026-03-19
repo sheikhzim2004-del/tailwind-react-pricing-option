@@ -3,7 +3,7 @@ import PricingFeature from '../PricingFeatur/PricingFeature';
 import { TfiMoney } from 'react-icons/tfi';
 
 const PricingCard = ({pricing}) => {
-    console.log(pricing)
+    // console.log(pricing)
     const {name, price, duration, description, features} = pricing;
     return (
         <div className='bg-amber-200 p-4 shadow-xl rounded-2xl flex flex-col'>
