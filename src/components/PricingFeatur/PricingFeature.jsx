@@ -4,7 +4,7 @@ import { IoCheckmarkDoneSharp } from 'react-icons/io5';
 const PricingFeature = ({featur}) => {
     return (
         <div className=' text-white'>
-            <p className='flex gap-2'><IoCheckmarkDoneSharp></IoCheckmarkDoneSharp>{featur}</p>
+            <p className='flex gap-2'><IoCheckmarkDoneSharp className='text-green-600 font-bold'></IoCheckmarkDoneSharp>{featur}</p>
         </div>
     );
 };

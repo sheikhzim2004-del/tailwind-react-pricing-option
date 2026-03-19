@@ -20,7 +20,7 @@ function App() {
         {/* <DaisiNav></DaisiNav> */}
       </header>
       <main>
-        <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+        <Suspense fallback={<div className='flex justify-center items-center h-screen'><span className="loading loading-bars loading-xl"></span></div>}>
           <PricingOption pricingPromiss={pricingPromiss}></PricingOption>
         </Suspense>
       </main>
