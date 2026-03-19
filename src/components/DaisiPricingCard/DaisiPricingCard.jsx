@@ -3,7 +3,7 @@ import React from 'react';
 const DaisiPricingCard = ({pricing}) => {
     const {name, price, description, popular, features, duration} = pricing;
     return (
-        <div className="card w-96 bg-base-100 shadow-sm">
+        <div className="card w-96 bg-base-100 shadow-sm mx-auto">
   <div className="card-body">
     {popular && <span className="badge badge-xs badge-warning">Most Popular</span>}
     <div className="flex justify-between">
